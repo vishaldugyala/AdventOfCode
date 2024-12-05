@@ -25,8 +25,6 @@ func main() {
 		list1 = append(list1, int1)
 		list2 = append(list2, int2)
 	}
-	fmt.Println(list1)
-	fmt.Println(list2)
 	fmt.Printf("total distance is :%v", getTotalDistance(list1, list2))
 	fmt.Printf("the similarity score is :%v", getSimilarityScore(list1, list2))
 
